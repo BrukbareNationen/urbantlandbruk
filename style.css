@@ -35,7 +35,7 @@ body {
     color: white;
     font-size: 1rem;
     padding-bottom: 15px;
-    padding-top: 25px;
+    padding-top: 15px;
     margin-bottom: 35px;
 }
 
@@ -146,6 +146,24 @@ ul {
     margin-right: 10%;
     color: #515150;
 }
+
+.bylineimglarge {
+    position: relative;
+    
+}
+.bylineimg img {
+    display: block;
+    position: relative;
+    margin: auto;
+    height: 60px;    
+    margin-top: 50px;
+    
+}
+
+.bylinesmall {
+    
+    margin: auto;
+}
 #header {
     padding: 0;
 }
@@ -171,7 +189,7 @@ ul {
     position: relative;
     left: 50%;
     margin-left: -50vw;
-    margin-bottom: 50px;
+    
     box-sizing: border-box;
 
 }
@@ -205,6 +223,15 @@ ul {
         display: none;
     }
 
+    .bylineimg img {
+        display: block;
+        position: relative;
+        top: 35px;
+        
+        margin: auto;   
+        height: 60px;  
+       }
+
 }
 
 
@@ -225,6 +252,15 @@ ul {
     .display-large {
         display: none;
     }
+
+    .bylineimg img {
+        display: block;
+        position: relative;
+        top: 35px;
+        
+        margin: auto;   
+        height: 60px;  
+       }
 }
 
 /******** Large SCREEN *******/
@@ -282,7 +318,7 @@ ul {
 
     .display-small {
         display: none;
-    }   
+    }       
     
     .display-large {
         display: block;
@@ -308,12 +344,18 @@ ul {
     
     .byline {
         margin-bottom: 50px;
+        
     }
+
+    .byline p {
+       text-align: center;
+    }
+    
     .text p{
         font-size: 24px;
         line-height: 40px;
         max-width: 80%;
-        margin: auto;
+        margin: 25px auto;
     }
 
     ul {
