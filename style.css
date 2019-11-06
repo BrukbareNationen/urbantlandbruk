@@ -149,6 +149,7 @@ ul {
 
 .bylineimglarge {
     position: relative;
+    height: 60px;
     
 }
 .bylineimg img {
@@ -175,7 +176,8 @@ ul {
 /********** generelle klasser ***************/
 
 .padding {
-    height: 50px;
+    height: 5px;
+    margin-bottom: 50px;
 }
 
 .padding-top {
@@ -227,7 +229,7 @@ ul {
         display: block;
         position: relative;
         top: 35px;
-        
+        left:40px;
         margin: auto;   
         height: 60px;  
        }
@@ -257,7 +259,7 @@ ul {
         display: block;
         position: relative;
         top: 35px;
-        
+        left: 140px;
         margin: auto;   
         height: 60px;  
        }
@@ -284,7 +286,7 @@ ul {
 
     #img2 {
         background-image: url(media/DSC_1803.jpg);        
-        height: 700vh;
+        height: calc(450vh + 1400px);
     }
 
     .facts-large  {       
@@ -336,6 +338,11 @@ ul {
         box-shadow: 0px 0px 1px #ccc;        
     }
 
+    .ingress-med .byline img {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
     .ingress h3{
         font-size: 35px;
         margin-top: 100px;
@@ -346,6 +353,7 @@ ul {
         margin-bottom: 50px;
         
     }
+    
 
     .byline p {
        text-align: center;
@@ -389,4 +397,10 @@ ul {
     width: 100vw;
     margin: 0;
     padding: 12px;
+}
+
+
+ /* MAKE STUFF FADE INN */
+.hidden {
+    display: none;
 }
