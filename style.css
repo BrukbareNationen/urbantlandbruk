@@ -113,10 +113,12 @@ video {
 }
 
 .sitat i{
-    display: inline-block;
-    margin-top: 15px;
+    display: block;   
     font-size: 16px;
     font-weight: lighter;
+    width: 80%;
+    text-align: center;
+    margin:auto;
 }
 
 
@@ -145,6 +147,9 @@ p {
 
 ul {
     padding-top: 15px;
+}
+hr {
+    width: 85%;
 }
 
 .text div {
@@ -224,7 +229,11 @@ ul {
 @media screen and (min-width: 576px) and (max-width:767px) {
     h1 {
         font-size: 40px;
-    }    
+    }  
+    
+    hr {
+        width: 85%;
+    }
 
     .ingress h3{
         font-size: 25px;
@@ -237,6 +246,7 @@ ul {
     .sitat i {
         font-size: 16px;
         text-align: center;
+        width: 80%;
     }
 
     .display-large {
@@ -259,6 +269,10 @@ ul {
 @media screen and (min-width: 768px) and (max-width:991px) {
     h1 {
         font-size: 45px;
+    }
+
+    hr {
+        width: 85%;
     }
 
     .ingress h3{
@@ -309,8 +323,11 @@ ul {
 
     #topimg {
         background-attachment: fixed;
-        height: 230vh;
+        height: calc(200vh + 600px);
+        box-shadow: 0px -2px 3px 0px #515151;
     }
+
+    
 
     #img2 {
         background-image: url(media/DSC_1803.jpg);        
@@ -337,8 +354,11 @@ ul {
         
     }
 
+   
+
     #facts-last {
-        padding-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
     }
 
     .facts-large .facts-item h4 {
@@ -384,7 +404,7 @@ ul {
     } 
     
     .byline {
-        margin-bottom: 50px;
+        margin-bottom: 0px;
         
     }
     
@@ -399,6 +419,7 @@ ul {
         max-width: 80%;
         margin: 25px auto;
     }
+    
 
     
 
@@ -409,6 +430,7 @@ ul {
     .sitat i {
         font-size: 20px;
         text-align: center;
+        width: 80%;
     }
 
     ul {
@@ -430,7 +452,7 @@ ul {
     h1 {
         font-size: 50px;
         margin-top: 50px;
-        margin-bottom: 80vh;
+        margin-bottom: 90vh;
     }
 
     /*  Høyde kalkulert 50vh mellom hvert element + px høyden totalt for elementene  */
@@ -438,6 +460,7 @@ ul {
     #img2 {
         background-image: url(media/DSC_1803.jpg);        
         height: calc(450vh + 1600px);
+        box-shadow: 0 2px 3px 0 #515151;
     }
 
     .sitat p {
