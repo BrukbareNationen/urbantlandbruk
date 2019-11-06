@@ -17,10 +17,7 @@ body {
 .cont-box {
     box-sizing: content-box;
 }
-.inline {
-    display: inline;
-    font-weight: lighter;
-}
+
 
 .right{
     float: right;
@@ -96,14 +93,24 @@ video {
 }
 
 .sitat {
-    margin-bottom: 30px;
+    
+  line-height: 200%;
+  
+    
 }
 
 .sitat p {
-    font-size: 15px; 
+    font-size: 20px; 
     color: black; 
     font-weight: bold; 
-    margin: 0;
+    text-align: center;
+    
+}
+
+.sitat i{
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: lighter;
 }
 
 
@@ -251,6 +258,11 @@ ul {
         line-height: 40px;
     }
 
+    .sitat p {
+        font-size: 25px;
+        text-align: center;
+    }
+
     .display-large {
         display: none;
     }
@@ -286,7 +298,7 @@ ul {
 
     #img2 {
         background-image: url(media/DSC_1803.jpg);        
-        height: calc(450vh + 1400px);
+        height: calc(500vh + 1400px);
     }
 
     .facts-large  {       
@@ -297,6 +309,8 @@ ul {
         color: #515150;
     }
 
+    
+
     .facts-large .facts-item {
 
         background-color: white;
@@ -305,6 +319,10 @@ ul {
         padding: 0 10px;
         margin: 0 10%;       
         
+    }
+
+    #facts-last {
+        padding-bottom: 20px;
     }
 
     .facts-large .facts-item h4 {
@@ -366,6 +384,11 @@ ul {
         margin: 25px auto;
     }
 
+    .sitat p {
+        font-size: 30px;
+        text-align: center;
+    }
+
     ul {
         
         font-size: 20px;
@@ -386,6 +409,18 @@ ul {
         font-size: 50px;
         margin-top: 50px;
         margin-bottom: 80vh;
+    }
+
+    /*  Høyde kalkulert 50vh mellom hvert element + px høyden totalt for elementene  */
+
+    #img2 {
+        background-image: url(media/DSC_1803.jpg);        
+        height: calc(450vh + 1600px);
+    }
+
+    .sitat p {
+        font-size: 30px;
+        text-align: center;
     }
 
 }
