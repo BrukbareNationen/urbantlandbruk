@@ -33,7 +33,12 @@ body {
     font-size: 1rem;
     padding-bottom: 15px;
     padding-top: 15px;
-    margin-bottom: 35px;
+    margin-bottom: 0px;
+    flex: 1;
+}
+
+.fact-wrapper {
+    display: flex;
 }
 
 
@@ -63,6 +68,15 @@ video {
     background-repeat: no-repeat;    
     background-position: center;
     overflow-x: hidden;
+}
+
+.portraitimg img{
+
+    display: block;
+    max-width: 100%;
+    max-height: 90vh;
+    margin:auto;   
+    
 }
 
 
@@ -289,7 +303,7 @@ hr {
     }
 
     .sitat i {
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
     }
 
@@ -305,6 +319,20 @@ hr {
         margin: auto;   
         height: 60px;  
        }
+
+       .fact {
+        background-color: #336600;
+        color: white;
+        font-size: 1rem;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-bottom: 0px;
+        flex: 1;
+    }
+    
+    .fact-wrapper {
+        display: flex;
+    }
 }
 
 /******** Large SCREEN *******/
@@ -369,7 +397,22 @@ hr {
     .facts-large .facts-item p {
         margin-top: 50vh;
         padding: 15px 0;
-    }    
+    }  
+    
+    /*  FAKTA I GRØNN BOKS (selv om stor skjerm)   */
+    .fact {
+        background-color: #336600;
+        color: white;
+        font-size: 1rem;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-bottom: 0px;
+        flex: 1;
+    }
+    
+    .fact-wrapper {
+        display: flex;
+    }
    
 
     .display-small {
@@ -390,6 +433,10 @@ hr {
         background: white;
         padding: 25px;
         box-shadow: 0px 0px 1px #ccc;        
+    }
+
+    #img2 {
+        box-shadow: 0 2px 3px 0 #515151;
     }
 
     .ingress-med .byline img {
@@ -428,7 +475,7 @@ hr {
         text-align: center;
     }
     .sitat i {
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
         width: 80%;
     }
@@ -466,6 +513,21 @@ hr {
     .sitat p {
         font-size: 30px;
         text-align: center;
+    }
+
+    /*  FAKTA I GRØNN BOKS (selv om stor skjerm)   */
+    .fact {
+        background-color: #336600;
+        color: white;
+        font-size: 1rem;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-bottom: 0px;
+        flex: 1;
+    }
+    
+    .fact-wrapper {
+        display: flex;
     }
 
 }
