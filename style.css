@@ -52,6 +52,14 @@ h6 {
     font-size: 20px;
 }
 
+q:before {
+    content: '«';
+  }
+   
+  q:after {
+    content: '»';
+  }
+
 
 video {
     width: 100%;
@@ -75,8 +83,9 @@ video {
 
     display: block;
     max-width: 100%;
-    max-height: 90vh;
+    max-height: 100%;
     margin:auto;   
+    margin-right: 0;
     
 }
 
@@ -149,8 +158,10 @@ h1 {
 }
 
 h4 {
-    text-align: center;    
+    text-align: left;
+    margin: auto;    
     margin-top: 50px;
+    width: 80%;
 }
 
 p {
@@ -216,6 +227,8 @@ hr {
 .padding-top {
     padding-top: 50px;
 }
+
+
 
 /********** Full bredde bilder ***********/
 
@@ -330,9 +343,19 @@ hr {
         margin-bottom: 0px;
         flex: 1;
     }
+
+    .fact h4 {
+        margin-top: 10px;
+    }
     
     .fact-wrapper {
         display: flex;
+    }
+    .padding-null-left-md {
+        padding-left: 0;
+    }
+    .padding-null-right-md {
+        padding-right: 0;
     }
 }
 
@@ -392,6 +415,7 @@ hr {
 
     .facts-large .facts-item h4 {
         padding:25px 15px;
+        text-align: center;
         
     }
 
@@ -410,9 +434,20 @@ hr {
         margin-bottom: 0px;
         flex: 1;
     }
+
+    .fact h4 {
+        margin-top: 10px;
+    }
     
     .fact-wrapper {
         display: flex;
+    }
+
+    .padding-null-left-md {
+        padding-left: 0;
+    }
+    .padding-null-right-md {
+        padding-right: 0;
     }
    
 
