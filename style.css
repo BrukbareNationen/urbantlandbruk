@@ -663,7 +663,11 @@ hr {
     background-color: #336600;
     width: 100vw;
     margin: 0;
-    padding: 12px;
+    padding: 0px;
+}
+
+.footer-wrapper {
+    padding: 0;
 }
 
 
