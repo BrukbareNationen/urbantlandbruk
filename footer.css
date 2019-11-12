@@ -1,5 +1,6 @@
 footer {
     background-color: #333;    
+    padding-top: 15px;
 }
 
 
@@ -17,6 +18,12 @@ footer  .footer_logotype {
     box-sizing: border-box;
     margin: 0 auto;
     padding: 20px
+}
+
+.footer hr {
+    border-top: 1px solid #515151; 
+    width: 100%; 
+    margin-bottom: 0;
 }
 
 footer  a {
@@ -39,6 +46,46 @@ footer  a {
     color: white;
     display: none;
 }
+
+.contact-links-group .col-4 {
+    padding: 10px;
+}
+
+.facebook:hover {
+    color: #276ac6;
+    text-decoration: none;
+}
+
+.twitter:hover {
+    color: #27cfde;
+    text-decoration: none;
+}
+
+.tips:hover {
+    color: #c5c297;
+    text-decoration: none;
+
+}
+
+.instagram:hover {
+    color: #c5c297;
+    text-decoration: none;
+}
+
+.telefon:hover {
+    color: #bcd046;
+    text-decoration: none;
+}
+.nationen:hover{
+    color: #bcd046;
+    text-decoration: none;
+}
+
+.varsom a:hover{
+    text-decoration: none;
+    color: #bcd046;
+}
+
 
 @media only screen and (min-width: 576px) and (max-width:767px) {
 
