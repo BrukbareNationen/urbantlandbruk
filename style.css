@@ -116,6 +116,13 @@ video {
     overflow-x: hidden;
 }
 
+p {
+    font-size: 18px;
+    text-align: left;
+    margin: 15px 25px;
+    color: #515150;
+}
+
 
 
 .byline {
@@ -222,6 +229,8 @@ hr {
 
 .bildetekst {
     margin-left: 25px;
+    width: 90%;
+    display: block;
 }
 
 /********** generelle klasser ***************/
@@ -571,6 +580,7 @@ hr {
 
     .byline p {
         text-align: center;
+        font-size: 14px;
     }
 
     .text p {
@@ -657,21 +667,126 @@ hr {
 
 }
 
-.footer {
-    color: #3e3e3e;
-    height: 250px;
-    background-color: #336600;
-    width: 100vw;
-    margin: 0;
-    padding: 0px;
-}
-
-.footer-wrapper {
-    padding: 0;
-}
-
 
 /* MAKE STUFF FADE INN */
 .hidden {
     display: none;
 }
+
+/******* Nationen footer*****/
+
+footer {
+    background-color: #333;    
+}
+
+
+
+footer  .footer_logotype {
+    margin: auto;
+    
+    display: block;
+    max-width: 100%;
+    padding: 20px 0px;
+}
+
+.footer_inside {
+    width: 960px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px
+}
+
+footer  a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #666
+}
+
+.footer_inside a:hover {
+    border-bottom: 1px solid #bcd046
+}
+
+.contact-links {
+    text-align: center;
+    display: none;
+    margin: auto;
+}
+
+.varsom {
+    color: white;
+    display: none;
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+
+    .contact-links{
+        display: block;
+    }
+
+    .contact-links-group {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 10px;       
+    }
+    .contact-links-group a {
+        margin-bottom: 50px;
+    }
+
+    .footer_logotype {
+        margin-bottom: 10px;
+    }
+
+    .varsom {
+        display: block;
+        text-align: center;
+        padding: 25px;
+    }    
+  
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+    
+    .contact-links {
+        display: block;
+    }
+
+    .varsom {
+        display: block;
+        text-align: center;
+        padding: 25px;
+    } 
+
+}
+
+@media only screen and (min-width: 992px) {
+    .contact-links {
+        display: block;
+    }
+
+    .varsom {
+        display: block;
+        text-align: center;
+        padding: 25px;
+        margin: auto;
+    } 
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .contact-links {
+        display: block;
+    }
+
+    .varsom {
+        display: block;
+        text-align: center;
+        padding: 25px;
+        margin: auto;
+    } 
+
+}
+
+
+
+
