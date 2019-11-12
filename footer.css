@@ -53,36 +53,43 @@ footer  a {
 
 .facebook:hover {
     color: #276ac6;
+    border-color: #276ac6;
     text-decoration: none;
 }
 
 .twitter:hover {
     color: #27cfde;
+    border-color: #27cfde;
     text-decoration: none;
 }
 
 .tips:hover {
     color: #c5c297;
+    border-color: #c5c297;
     text-decoration: none;
 
 }
 
 .instagram:hover {
     color: #c5c297;
+    border-color: #c5c297;
     text-decoration: none;
 }
 
 .telefon:hover {
     color: #bcd046;
+    border-color: #bcd046;
     text-decoration: none;
 }
 .nationen:hover{
     color: #bcd046;
+    border-color: #bcd046;
     text-decoration: none;
 }
 
 .varsom a:hover{
     text-decoration: none;
+    border-color: #bcd046;
     color: #bcd046;
 }
 
