@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: 'Fira Mono', monospace;
+    font-family: 'adellesensregular', sans-serif;
 }
 
 .box {
@@ -27,6 +27,7 @@ body {
 .left {
     float: left;
 }
+
 
 .fact {
     background-color: #336600;
@@ -62,6 +63,10 @@ q:before {
 
 q:after {
     content: '»';
+}
+
+q {
+    color: #336600;
 }
 
 
@@ -123,8 +128,6 @@ p {
     color: #515150;
 }
 
-
-
 .byline {
     padding: 20px;
     font-size: 14px;
@@ -134,8 +137,6 @@ p {
 .sitat {
 
     line-height: 200%;
-
-
 }
 
 .sitat p {
@@ -143,7 +144,6 @@ p {
     color: black;
     font-weight: bold;
     text-align: center;
-
 }
 
 .sitat i {
@@ -154,7 +154,6 @@ p {
     text-align: center;
     margin: auto;
 }
-
 
 
 
@@ -219,7 +218,6 @@ hr {
 }
 
 .bylinesmall {
-
     margin: auto;
 }
 
@@ -264,9 +262,17 @@ hr {
     display: block;
 }
 
-.min-width700 {
+.minw500{
+    min-width: 500px;
+}
+.minw600{
+    min-width: 600px;
+}
+
+.minw700 {
     min-width: 700px;
 }
+
 #img4 {
     background-image: url(media/Bollestad1.jpg);
     height: 120vh;
@@ -275,7 +281,7 @@ hr {
 #img5 {
     background-image: url(media/Bollestad10.jpg);
     height: 125vh;
-    
+
 }
 
 
@@ -393,7 +399,7 @@ hr {
     .padding-null-right-md {
         padding-right: 0;
     }
-    
+
 }
 
 /******** Large SCREEN *******/
@@ -590,9 +596,6 @@ hr {
         margin: 25px auto;
     }
 
-
-
-
     .sitat p {
         font-size: 30px;
         text-align: center;
@@ -608,10 +611,6 @@ hr {
 
         font-size: 20px;
     }
-
-
-
-
 }
 
 
@@ -673,6 +672,8 @@ hr {
     display: none;
 }
 
+
+
 /******* Nationen footer*****/
 
-
+/* EGEN FIL */
