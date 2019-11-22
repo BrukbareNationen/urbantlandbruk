@@ -8,8 +8,46 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: 'adellesensregular', sans-serif;
+    font-family: 'adelle_sansthin', sans-serif;
 }
+
+
+
+.byline {
+    
+    font-size: 16px;
+    text-align: center;
+}
+
+.byline i {
+    letter-spacing: 1px;
+}
+
+.bylineimg img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.byline-wrapper hr {
+    width: 330px;
+}
+
+.byline-wrapper {
+    margin-bottom: 100px;
+    margin-top: 75px;
+}
+
+.bylineimg img {
+    display: block;
+    position: relative;
+    margin: auto;
+    height: 60px;
+    margin-top: 50px;
+
+}
+
+
 
 .box {
     box-sizing: border-box;
@@ -128,11 +166,7 @@ p {
     color: #515150;
 }
 
-.byline {
-    padding: 20px;
-    font-size: 14px;
-    text-align: center;
-}
+
 
 .sitat {
 
@@ -158,11 +192,11 @@ p {
 
 
 h1 {
-    color: #336600;
+    color: #515151;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-
+    font-family: adelle_sansregular, sans-serif;
     font-size: 30px;
 }
 
@@ -202,24 +236,8 @@ hr {
     color: #515150;
 }
 
-.bylineimglarge {
-    position: relative;
-    height: 60px;
 
-}
 
-.bylineimg img {
-    display: block;
-    position: relative;
-    margin: auto;
-    height: 60px;
-    margin-top: 50px;
-
-}
-
-.bylinesmall {
-    margin: auto;
-}
 
 #header {
     padding: 0;
@@ -320,9 +338,7 @@ hr {
     .bylineimg img {
         display: block;
         position: relative;
-        top: 35px;
-        left: 40px;
-        margin: auto;
+        
         height: 60px;
     }
 
@@ -368,9 +384,7 @@ hr {
     .bylineimg img {
         display: block;
         position: relative;
-        top: 35px;
-        left: 140px;
-        margin: auto;
+        
         height: 60px;
     }
 
@@ -567,27 +581,14 @@ hr {
         height: 120vh;
     }
 
-    .ingress-med .byline img {
-        margin-top: 50px;
-        margin-bottom: 25px;
-    }
+    
 
     .ingress h3 {
         font-size: 35px;
         margin-top: 100px;
         margin-bottom: 50px;
-    }
-
-    .byline {
-        margin-bottom: 0px;
-
-    }
-
-
-    .byline p {
-        text-align: center;
-        font-size: 14px;
-    }
+    }  
+    
 
     .text p {
         font-size: 20px;
