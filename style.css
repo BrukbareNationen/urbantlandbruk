@@ -34,7 +34,7 @@ body {
 }
 
 .byline-wrapper {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-top: 75px;
 }
 
@@ -430,6 +430,10 @@ hr {
         margin: auto;
     }
 
+    .byline-wrapper hr {
+        width: 230px;
+    }
+
     .background-center {
         background-attachment: fixed;
     }
@@ -625,6 +629,10 @@ hr {
         font-size: 50px;
         margin-top: 50px;
         margin-bottom: 90vh;
+    }
+
+    .byline-wrapper hr {
+        width: 330px;
     }
 
     /*  Høyde kalkulert 50vh mellom hvert element + px høyden totalt for elementene  */
